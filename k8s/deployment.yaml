@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
         - name: product-catalog-service
-          image: us-central1-docker.pkg.dev/moon-tracker-456917/product-catalog/product-catalog-service:latest
+          image: us-central1-docker.pkg.dev/moon-tracker-456917/product-catalog/product-catalog-service:1.0.0
+
           ports:
             - containerPort: 8080
           resources:
